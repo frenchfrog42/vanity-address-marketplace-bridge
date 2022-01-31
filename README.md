@@ -1,7 +1,3 @@
-# Hello World Protocol
+# Vanity address marketplace bridge
 
-A simple Bridgeport bridge template
-
-## License
-
-The license for the code in this repository is the Open BSV License.
+A bridgeport app to list all orders of that marketplace. Please read https://bridgeport.babbage.systems/1CaMS183FWcQGVsSkthxj3Sp5kRB1a3Za4 for more explanation
