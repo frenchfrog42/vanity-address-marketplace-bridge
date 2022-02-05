@@ -4,7 +4,6 @@ module.exports = {
     q: {
       collection: 'hello',
       find: {},
-      project: { message: 1 },
       limit: 10
     }
   }, null, 2),
