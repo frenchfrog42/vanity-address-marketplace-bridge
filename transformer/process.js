@@ -2,8 +2,8 @@ module.exports = async (state, action) => {
   try {
     console.log(`[+] ${action.tx.h}`)
 
-    // Transaction must contain correct protocol namespace
-    if (action.out[0].s2 !== '1He11omzQsAeYa2JUj52sFZRQEsSzPFNZx') {
+    // Transaction must contain correct protocol namespace //...
+    if (action.out[0].s2 !== '1BaguettegL3S21U2erSNDYSe7UMJL2Y8v') {
       throw new Error(
         'Transaction has invalid protocol namespace!'
       )
