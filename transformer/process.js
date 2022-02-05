@@ -32,8 +32,9 @@ module.exports = async (state, action) => {
     // HWP message is constructed from the fields of the Bitcoin transaction
     const data = {
       _id: action.tx.h,
-      sender: action.out[0].s3,
-      message: action.out[0].s4
+      txid: action.out[0].s3,
+      index: action.out[0].s4,
+      message: action.out[0].s5
     }
 
     // Insert HWP messages into the database
